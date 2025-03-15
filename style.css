@@ -26,6 +26,12 @@ body{
     color: #0a9396;
 }
 
+.header__menu__link:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
 .contenido{
     display: flex;
     align-items: center;
@@ -86,13 +92,29 @@ body{
     gap: 20px;
 }
 
-
-.contenido__info__boton_instagram:hover{
-    background-color: #D1924F;
-    color: darkslategrey;
+.contenido__info__boton_github{
+    color: #F6F6F6;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    width: 378px;
+    border: 3px solid #4895ef;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
+.contenido__info__boton_github:hover{
+    background-color: #4895ef;
+}
 
+.contenido__info__boton_instagram:hover{
+    background-color: #bb3e03;
+}
 
 .contenido__info__boton_linkedin{
     color: #F6F6F6;
@@ -111,32 +133,8 @@ body{
 }
 
 .contenido__info__boton_linkedin:hover{
-    background-color: #98D9C2;
-    color: darkslategrey;
+    background-color: #005F73;
 }
-
-
-.contenido__info__boton_github{
-    color: #F6F6F6;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px;
-    padding: 21.5px 0;
-    font-size: 20px;
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    width: 378px;
-    border: 3px solid #4895ef;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.contenido__info__boton_github:hover{
-    background-color: #04151F;
-    cursor: pointer;
-}
-
 
 .contenido__info__imagen{
     width: 31.25rem;
