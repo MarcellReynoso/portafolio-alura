@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
 
+:root{
+    --letra-poppins: "Poppins", serif;
+    --color-principal: #0a9396;
+    --color-instagram: #bb3e03;
+    --color-github: #4895ef;
+    --color-linkedin: #005F73;
+}
+
 *{
     padding: 0;
     margin: 00;
@@ -21,9 +29,9 @@ body{
 
 .header__menu__link{
     font-size: 24px;
-    font-family: "Poppins", serif;
+    font-family: var(--letra-poppins);
     text-decoration: none;
-    color: #0a9396;
+    color: var(--color-principal);
 }
 
 .header__menu__link:hover{
@@ -45,7 +53,7 @@ body{
     width: 610px;
     display: flex;
     flex-direction: column;
-    font-family: "Poppins", serif;
+    font-family: var(--letra-poppins);
 }
 
 .contenido__info__titulo{
@@ -54,7 +62,7 @@ body{
 }
 
 .contenido__info__titulo__destaque{
-    color: #0a9396;
+    color: var(--color-principal);
 }
 
 .contenido__info__texto{
@@ -71,7 +79,7 @@ body{
 }
 
 .contenido__info__botones__subtitulo{
-    font-family: "Poppins", serif;
+    font-family: var(--letra-poppins);
     font-size: 24px;
     font-weight: 400;
 }
@@ -83,10 +91,10 @@ body{
     border-radius: 8px;
     padding: 21.5px 0;
     font-size: 20px;
-    font-family: "Poppins", serif;
+    font-family: var(--letra-poppins);
     font-weight: 600;
     width: 378px;
-    border: 3px solid #bb3e03;
+    border: 3px solid var(--color-instagram);
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -99,21 +107,21 @@ body{
     border-radius: 8px;
     padding: 21.5px 0;
     font-size: 20px;
-    font-family: "Poppins", serif;
+    font-family: var(--letra-poppins);
     font-weight: 600;
     width: 378px;
-    border: 3px solid #4895ef;
+    border: 3px solid var(--color-github);
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
 .contenido__info__boton_github:hover{
-    background-color: #4895ef;
+    background-color: var(--color-github);
 }
 
 .contenido__info__boton_instagram:hover{
-    background-color: #bb3e03;
+    background-color: var(--color-instagram);
 }
 
 .contenido__info__boton_linkedin{
@@ -123,17 +131,17 @@ body{
     border-radius: 8px;
     padding: 21.5px 0;
     font-size: 20px;
-    font-family: "Poppins", serif;
+    font-family: var(--letra-poppins);
     font-weight: 600;
     width: 378px;
-    border: 3px solid #005F73;
+    border: 3px solid var(--color-linkedin);
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
 .contenido__info__boton_linkedin:hover{
-    background-color: #005F73;
+    background-color: var(--color-linkedin);
 }
 
 .contenido__info__imagen{
@@ -148,7 +156,7 @@ footer{
     color: #F6F6F6;
     background-color: #005F73;
     text-align: center;
-    font-family: "Poppins", serif;
+    font-family: var(--letra-poppins);
     font-size: 20px;
     font-weight: normal;
     padding: 16px;
