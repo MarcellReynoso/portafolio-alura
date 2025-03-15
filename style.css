@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
+*{
+    padding: 0;
+    margin: 00;
+}
+
+body{
+/*     height: 100vh; */
+    background-color: black;
+    color:aliceblue;
+    box-sizing: border-box;
+}
+
+.header__menu{
+    display: flex;
+    margin: 2% 15%;
+    gap: 48px;
+}
+
+.header__menu__link{
+    font-size: 24px;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    color: #0a9396;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    margin: 3% 15%;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.contenido__info{
+    gap: 40px;
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", serif;
+}
+
+.contenido__info__titulo{
+    font-size: 3.125rem;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+.contenido__info__titulo__destaque{
+    color: #0a9396;
+}
+
+.contenido__info__texto{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.contenido__info__botones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.contenido__info__botones__subtitulo{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contenido__info__boton_instagram{
+    color: #F6F6F6;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    width: 378px;
+    border: 3px solid #bb3e03;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.contenido__info__boton_instagram:hover{
+    background-color: #D1924F;
+    color: darkslategrey;
+}
+
+
+
+.contenido__info__boton_linkedin{
+    color: #F6F6F6;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    width: 378px;
+    border: 3px solid #005F73;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenido__info__boton_linkedin:hover{
+    background-color: #98D9C2;
+    color: darkslategrey;
+}
+
+
+.contenido__info__boton_github{
+    color: #F6F6F6;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    width: 378px;
+    border: 3px solid #4895ef;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenido__info__boton_github:hover{
+    background-color: #04151F;
+    cursor: pointer;
+}
+
+
+.contenido__info__imagen{
+    width: 31.25rem;
+}
+
+.img__logo{
+    height: 32px;
+}
+
+footer{
+    color: #F6F6F6;
+    background-color: #005F73;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 16px;
+}
+
+.contenido__about{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+    gap: 23px;
+}
+
+.titulo___about{
+    display: flex;
+    justify-content: flex-start;
+    color: #37a6a8;
+}
+
+.about__text{
+    text-align: justify;
+}
+
+@media (max-width: 1200px){
+   .header__menu{
+    justify-content: center;
+    padding-top: 5%;
+    }
+
+    .contenido{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .contenido__info{
+        width: 20rem;
+    }
+
+    .contenido__info__imagen{
+        width: 20rem;
+    }
+
+    .contenido__info__botones{
+        width: 20rem;
+    }
+
+    .contenido__info__boton_instagram{
+        width: 20rem;
+    }
+
+    .contenido__info__boton_github{
+        width: 20rem;
+    }
+
+    .contenido__info__boton_linkedin{
+        width: 20rem;
+    }
+
+    
+}
