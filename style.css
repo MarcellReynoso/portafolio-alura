@@ -24,7 +24,7 @@ body{
 .header__menu{
     display: flex;
     margin: 2% 15%;
-    gap: 48px;
+    gap: 3rem;
 }
 
 .header__menu__link{
@@ -50,7 +50,7 @@ body{
 
 .contenido__info{
     gap: 40px;
-    width: 610px;
+    width: 38.125rem;
     display: flex;
     flex-direction: column;
     font-family: var(--letra-poppins);
@@ -75,7 +75,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 23px;
+    gap: 1.5rem;
 }
 
 .contenido__info__botones__subtitulo{
@@ -88,32 +88,32 @@ body{
     color: #F6F6F6;
     text-align: center;
     text-decoration: none;
-    border-radius: 8px;
-    padding: 21.5px 0;
+    border-radius: 0.5rem;
+    padding: 1.344rem 0;
     font-size: 20px;
     font-family: var(--letra-poppins);
     font-weight: 600;
-    width: 378px;
+    width: 23.625rem;
     border: 3px solid var(--color-instagram);
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .contenido__info__boton_github{
     color: #F6F6F6;
     text-align: center;
     text-decoration: none;
-    border-radius: 8px;
-    padding: 21.5px 0;
+    border-radius: 0.5rem;
+    padding: 1.344rem 0;
     font-size: 20px;
     font-family: var(--letra-poppins);
     font-weight: 600;
-    width: 378px;
+    width: 23.625rem;
     border: 3px solid var(--color-github);
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .contenido__info__boton_github:hover{
@@ -128,16 +128,16 @@ body{
     color: #F6F6F6;
     text-align: center;
     text-decoration: none;
-    border-radius: 8px;
-    padding: 21.5px 0;
+    border-radius: 0.5rem;
+    padding: 1.344rem 0;
     font-size: 20px;
     font-family: var(--letra-poppins);
     font-weight: 600;
-    width: 378px;
+    width: 23.625rem;
     border: 3px solid var(--color-linkedin);
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .contenido__info__boton_linkedin:hover{
@@ -149,7 +149,7 @@ body{
 }
 
 .img__logo{
-    height: 32px;
+    height: 2rem;
 }
 
 footer{
@@ -159,7 +159,7 @@ footer{
     font-family: var(--letra-poppins);
     font-size: 20px;
     font-weight: normal;
-    padding: 16px;
+    padding: 1rem;
 }
 
 .contenido__about{
@@ -167,7 +167,7 @@ footer{
     justify-content: space-between;
     flex-direction: column;
     align-items: start;
-    gap: 23px;
+    gap: 1.5rem;
 }
 
 .titulo___about{
